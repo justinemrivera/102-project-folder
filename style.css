@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root{
+    --primary:#ffd901;
+}
+body{
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+/*menu*/
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    height: 5vh;
+    background-color: white;
+    padding: .5rem;
+}
+nav.img.logo{
+    width: 7rem;
+    
+
+}
+nav p{
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    letter-spacing: 3px;
+}
+
+h1{font-size:;}
+
+.renew-text,.menu-text,.fa-search{
+    display: none;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe-btn{
+    background-color: black;
+    color: white;
+   padding: 1rem;
+   font-size: .7rems;
+}
+
+.subscribe-btn:hover{
+    background-color: var(--primary);
+    color:black
+}
+
+@media(min-width:768px){
+    .renew-text,.menu-text,.fa-search
+{
+    display: block;
+}
+nav.menu i{
+    margin-right: 1rem;
+}
+.renew-text{
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 0;
+    border-bottom: 2px solid var(--primary);
+}
+.renew-text:hover{
+    background-color: var(--primary);
+    }
+}
+
+/*header*/
+header.site-header{
+    text-align: center;
+    height: 12rem;
+   
+}
+header.site-header h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+span:hover{
+    background-color:var(--primary);
+}
+
+span{ 
+    text-decoration:none;
+    border-bottom: 2px solid #ffd901 ;
+}
+
+h2{
+    color: #ffd901;
+}
+
+.subscribe-btn2{
+    margin-left: 80%;
+    background-color: #ffd901; 
+    width: fit-content;
+    color: black; 
+    font-size: 24px;
+    padding: .5rem
+           
+}
